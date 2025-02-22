@@ -534,25 +534,35 @@ var SS = SM.concat([
     'Sweet Apple',
     'Tart Apple',
     'Throat Spray',
-
-    'Light Incense',
-    'Moon Incense',
-    'Pink Incense',
-    'Egg Incense',
-    'Attack Incense',
-    'Defense Incense',
-    'Calm Incense',
-    'Ice Incense',
-    'Weird Incense',
-    'Metal Incense',
-    'Soothing Incense',
-    'Punk Incense',
 ]);
-for (var i = 0; i < 100; i++) {
-    SS.push("TR".concat(i < 10 ? "0".concat(i) : i));
-}
-SS.push('Utility Umbrella', 'Vile Vial');
+//for (var i = 0; i < 100; i++) {
+//    SS.push("TR".concat(i < 10 ? "0".concat(i) : i));
+//}
+SS.push('Utility Umbrella');
 SS.push.apply(SS, __spreadArray(__spreadArray([], __read(GSC_ONLY), false), ['Old Amber'], false));
+var SV = SS.concat([
+    'Adamant Crystal',
+    'Auspicious Armor',
+    'Ability Shield',
+    'Booster Energy',
+    'Clear Amulet',
+    'Cornerstone Mask',
+    'Covert Cloak',
+    'Fairy Feather',
+    'Hearthflame Mask',
+    'Loaded Dice',
+    'Malicious Armor',
+    'Masterpiece Teacup',
+    'Metal Alloy',
+    'Mirror Herb',
+    'Punching Glove',
+    'Lustrous Globe',
+    'Griseous Core',
+    'Strange Ball',
+    'Syrupy Apple',
+    'Unremarkable Teacup',
+    'Wellspring Mask',
+]);
 var BERRIES = {
     'Aguav Berry': { t: 'Dragon', p: 80 },
     'Apicot Berry': { t: 'Ground', p: 100 },

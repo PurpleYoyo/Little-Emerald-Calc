@@ -411,7 +411,19 @@ exports.MEGA_STONES = {
     Steelixite: 'Steelix',
     Swampertite: 'Swampert',
     Tyranitarite: 'Tyranitar',
-    Venusaurite: 'Venusaur'
+    Venusaurite: 'Venusaur',
+    'Light Incense': 'Pichu',
+    'Moon Incense': 'Cleffa',
+    'Pink Incense': 'Igglybuff',
+    'Egg Incense': 'Togepi',
+    'Attack Incense': 'Tyrogue',
+    'Defense Incense': 'Tyrogue',
+    'Calm Incense': 'Tyrogue',
+    'Ice Incense': 'Smoochum',
+    'Weird Incense': 'Mime Jr.',
+    'Metal Incense': 'Riolu',
+    'Soothing Incense': 'Toxel',
+    'Punk Incense': 'Toxel',
 };
 var XY = BW.concat(__spreadArray(__spreadArray([], __read(Object.keys(exports.MEGA_STONES)), false), [
     'Assault Vest',
@@ -522,6 +534,19 @@ var SS = SM.concat([
     'Sweet Apple',
     'Tart Apple',
     'Throat Spray',
+
+    'Light Incense',
+    'Moon Incense',
+    'Pink Incense',
+    'Egg Incense',
+    'Attack Incense',
+    'Defense Incense',
+    'Calm Incense',
+    'Ice Incense',
+    'Weird Incense',
+    'Metal Incense',
+    'Soothing Incense',
+    'Punk Incense',
 ]);
 for (var i = 0; i < 100; i++) {
     SS.push("TR".concat(i < 10 ? "0".concat(i) : i));

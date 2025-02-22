@@ -10683,7 +10683,7 @@ var SV_PATCH = {
 		baseSpecies: 'Bonsly',
 		nfe: true
 	},
-	'Mime-Jr.-Mega-K': {
+	'Mime Jr.-Mega-K': {
 		types: ['Psychic', 'Fairy'],
 		bs: { hp: 40, at: 45, df: 65, sa: 100, sd: 120, sp: 90 },
 		weightkg: 545,
@@ -10691,7 +10691,7 @@ var SV_PATCH = {
 		baseSpecies: 'Mime Jr.',
 		nfe: true
 	},
-	'Mime-Jr.-Mega-G': {
+	'Mime Jr.-Mega-G': {
 		types: ['Psychic', 'Ice'],
 		bs: { hp: 40, at: 45, df: 65, sa: 100, sd: 120, sp: 90 },
 		weightkg: 545,

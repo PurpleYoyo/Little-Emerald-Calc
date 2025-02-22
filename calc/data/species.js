@@ -10815,7 +10815,7 @@ var LE_PATCH = {
 		nfe: true
 	},
 	'Charcadet-Psychic': {
-		types: ['Fairy'],
+		types: ['Fire', 'Psychic'],
 		bs: { hp: 40, at: 50, df: 40, sa: 50, sd: 40, sp: 35 },
 		weightkg: 105,
 		abilities: { 0: 'Flash Fire' },
@@ -10823,7 +10823,7 @@ var LE_PATCH = {
 		nfe: true
 	},
 	'Charcadet-Ghost': {
-		types: ['Fairy'],
+		types: ['Fire', 'Ghost'],
 		bs: { hp: 40, at: 50, df: 40, sa: 50, sd: 40, sp: 35 },
 		weightkg: 105,
 		abilities: { 0: 'Flash Fire' },
@@ -10903,7 +10903,7 @@ var LE_PATCH = {
 		nfe: true
 	},
 	'Snorunt-Ghost': {
-		types: ['Psychic', 'Fighting'],
+		types: ['Ice', 'Ghost'],
 		bs: { hp: 50, at: 50, df: 50, sa: 50, sd: 50, sp: 50 },
 		weightkg: 168,
 		abilities: { 0: 'Inner Focus' },
@@ -10911,7 +10911,7 @@ var LE_PATCH = {
 		nfe: true
 	},
 	'Wurmple-Poison': {
-		types: ['Psychic', 'Fighting'],
+		types: ['Bug', 'Poison'],
 		bs: { hp: 45, at: 45, df: 35, sa: 20, sd: 30, sp: 20 },
 		weightkg: 36,
 		abilities: { 0: 'Shield Dust' },

@@ -832,10 +832,6 @@ function calculateBPModsSMSS(gen, attacker, defender, move, field, desc, basePow
         bpMods.push(4505);
         desc.attackerItem = attacker.item;
     }
-    else if attacker.hasItem('Calm Incense') && move.category === 'Physical' {
-        bpMods.push(4505);
-        desc.attackerItem = attacker.item;
-    }
     return bpMods;
 }
 exports.calculateBPModsSMSS = calculateBPModsSMSS;
@@ -1029,31 +1025,6 @@ function calculateDfModsSMSS(gen, attacker, defender, move, field, desc, isCriti
     }
     if ((defender.hasItem('Eviolite') && ((_a = gen.species.get((0, util_1.toID)(defender.name))) === null || _a === void 0 ? void 0 : _a.nfe)) ||
         (!hitsPhysical && defender.hasItem('Assault Vest'))) {
-        dfMods.push(6144);
-        desc.defenderItem = defender.item;
-    }
-    else if defender.hasItem('Malicious Armor')
-            && defender.named('Charcadet-Ghost') {
-        dfMods.push(6144);
-        desc.defenderItem = defender.item;
-    }
-    else if (defender.hasItem('Auspicious Armor')
-             && defender.named('Charcadet-Psychic') {
-        dfMods.push(6144);
-        desc.defenderItem = defender.item;
-    }
-    else if defender.hasItem('Dawn Stone')
-            && defender.named('Ralts-Fighting') {
-        dfMods.push(6144);
-        desc.defenderItem = defender.item;
-    }
-    else if defender.hasItem('Moon Incense')
-            && (defender.named('Cleffa') || defender.named('Cleffa-Mega')) {
-        dfMods.push(6144);
-        desc.defenderItem = defender.item;
-    }
-    else if defender.hasItem('Defense Incense')
-            && (defender.named('Tyrogue') || defender.named('Tyrogue-Mega-C')) {
         dfMods.push(6144);
         desc.defenderItem = defender.item;
     }

@@ -1106,7 +1106,8 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			console.log(pokemonName);
 			
 			var species = pokedex[pokemonName];
-			name = (species.otherFormes || (species.baseSpecies && species.baseSpecies !== pokemonName)) ? pokeInfo.find(".forme").val() : pokemonName;
+			//name = (species.otherFormes || (species.baseSpecies && species.baseSpecies !== pokemonName)) ? pokeInfo.find(".forme").val() : pokemonName;
+			name = pokemonName;
 			if (TITLE.includes("Lumi")) {
 				name = pokemonName
 			}

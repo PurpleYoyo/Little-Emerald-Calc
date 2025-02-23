@@ -1034,6 +1034,7 @@ function calculateDfModsSMSS(gen, attacker, defender, move, field, desc, isCriti
         dfMods.push(8192);
         desc.defenderItem = defender.item;
     }
+    console.log(defender);
     return dfMods;
 }
 exports.calculateDfModsSMSS = calculateDfModsSMSS;

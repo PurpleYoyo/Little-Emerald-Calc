@@ -1025,7 +1025,7 @@ function calculateDfModsSMSS(gen, attacker, defender, move, field, desc, isCriti
     }
     if ((defender.hasItem('Eviolite') && ((_a = gen.species.get((0, util_1.toID)(defender.name))) === null || _a === void 0 ? void 0 : _a.nfe)) ||
         (!hitsPhysical && defender.hasItem('Assault Vest')) ||
-        (defender.hasItem('Dawn Stone') && defender.named('Ralts-Fighintg')) ) {
+        (defender.hasItem('Dawn Stone') && defender.named('Ralts-Fighting')) ) {
         dfMods.push(6144);
         desc.defenderItem = defender.item;
     }

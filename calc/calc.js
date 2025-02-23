@@ -8,6 +8,7 @@ var gen4_1 = require("./mechanics/gen4");
 var gen56_1 = require("./mechanics/gen56");
 var gen78_1 = require("./mechanics/gen56");
 var genRR_1 = require("./mechanics/gen78");
+var gen789_1 = require("./mechanics/gen789");
 var MECHANICS = [
     function () { },
     gen12_1.calculateRBYGSC,
@@ -17,7 +18,7 @@ var MECHANICS = [
     gen56_1.calculateBWXY,
     gen56_1.calculateBWXY,
     gen78_1.calculateBWXY,
-    genRR_1.calculateSMSS
+    gen789_1.calculateSMSSSV
 ];
 function calculate(gen, attacker, defender, move, field) {
     // if (gen.num > 5) {

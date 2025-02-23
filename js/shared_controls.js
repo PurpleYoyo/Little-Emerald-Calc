@@ -1047,6 +1047,8 @@ function correctHiddenPower(pokemon) {
 }
 
 function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
+	console.log(pokeInfo);
+	consople.log(typeof pokeInfo === "string");
 	if (typeof pokeInfo === "string") { // in this case, pokeInfo is the id of an individual setOptions value whose moveset's tier matches the selected tier(s)
 		var name = pokeInfo.substring(0, pokeInfo.indexOf(" ("));
 		var setName = pokeInfo.substring(pokeInfo.indexOf("(") + 1, pokeInfo.lastIndexOf(")"));

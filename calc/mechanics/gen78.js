@@ -827,7 +827,7 @@ function calculateBPModsSMSS(gen, attacker, defender, move, field, desc, basePow
         bpMods.push(4915);
         desc.attackerItem = attacker.item;
     }
-    else if (((attacker.hasItem('Muscle Band') || attacker.hasItem('Calm Incense')) && move.category === 'Physical') ||
+    else if ((attacker.hasItem('Muscle Band') && move.category === 'Physical') ||
         (attacker.hasItem('Wise Glasses') && move.category === 'Special')) {
         bpMods.push(4505);
         desc.attackerItem = attacker.item;
@@ -1024,11 +1024,7 @@ function calculateDfModsSMSS(gen, attacker, defender, move, field, desc, isCriti
         desc.defenderAbility = defender.ability;
     }
     if ((defender.hasItem('Eviolite') && ((_a = gen.species.get((0, util_1.toID)(defender.name))) === null || _a === void 0 ? void 0 : _a.nfe)) ||
-        (!hitsPhysical && (defender.hasItem('Assault Vest') || defender.hasItem('Defense Incense'))))
-        || (defender.hasItem('Malicious Armor') && defender.named('Charcadet-Ghost'))
-        || (defender.hasItem('Auspicious Armor') && defender.named('Charcadet-Psychic'))
-        || (defender.hasItem('Dawn Stone') && defender.named('Ralts-Fighting'))
-        || (defender.hasItem('Moon Incense') && (defender.named('Cleffa') || defender.named('Cleffa-Mega'))) {
+        (!hitsPhysical && defender.hasItem('Assault Vest'))) {
         dfMods.push(6144);
         desc.defenderItem = defender.item;
     }

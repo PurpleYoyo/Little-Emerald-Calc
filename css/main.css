@@ -1261,81 +1261,41 @@ table.field {
   content: "Enemies Team";
 }
 
-.move-result-group.sun::before {
-  background-color: rgb(45, 31, 20);
-}
 
-.sun > fieldset {
-  background-color: rgb(45, 31, 20);
-}
-
-.move-result-group.rain::before {
-  background-color: rgb(24, 33, 46);
-}
-
-.rain > fieldset{
-  background-color: rgb(24, 33, 46);
-}
-
-.move-result-group.sand::before {
-  background-color: rgb(38, 35, 20);
-}
-
-.sand > fieldset{
-  background-color: rgb(38, 35, 20);
-}
-
-.move-result-group.hail::before {
-  background-color: rgb(34, 43, 43);
-}
-
-.hail > fieldset{
-  background-color: rgb(34, 43, 43);
-}
-
-.move-result-group.snow::before {
-  background-color: rgb(34, 43, 43);
-}
-
-.snow > fieldset{
-  background-color: rgb(34, 43, 43);
-}
-
-.move-result-group > div {
-  position: relative;
-  min-height: 110px;
-}
-
+.move-result-group > div,
 .move-result-group {
   position: relative;
-}
 
-.move-result-group::before {
-  width: 310px;
-  height: 150px;
 }
-
 .move-result-group > div:first-child::before {
+  /* background-position-x: right; */
+  /* transform: scaleX(-1); */
   content: "";
   position: absolute;
-  right: 20px;
-  top: 20px;
-  width: 120px;
+  right: 0px;
+  top: 0;
+  /* transform: translateY(-50%); */
+  /* background-image: url("https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/Abomasnow.png"); */
+  width: 15%;
   height: 120px;
   background-repeat: no-repeat;
+  background-size: cover;
   transform: scaleX(-1);
 }
 
 .move-result-group > div:last-child::before {
   content: "";
   position: absolute;
-  left: 20px;
-  top: 20px;
-  width: 120px;
+  left: 0px;
+  top: 0;
+  /* transform: translateY(-50%); */
+  /* background-image: url("https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/Abomasnow.png"); */
+  width: 15%;
   height: 120px;
   background-repeat: no-repeat;
-}
+  background-size: cover;
 
+}
 #abilityL1 {
   width: 156px; /* Adjust the width as needed */
 }

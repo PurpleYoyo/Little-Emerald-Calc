@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-image: url("../smallchung.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* header */
 /* a img {
   border: 0;
@@ -455,7 +447,7 @@ body {
   font-optical-sizing: auto;
   font-size: 12px;
   font-style: normal;
-  background-color: #f8f8f8;
+  background-color: #121212;
   color: #121212;
   margin: 0;
   padding: 0;
@@ -1422,6 +1414,7 @@ table.field {
 .openbtn {
   font-size: 20px;
   right: 10px;
+  color: white;
 }
 
 #openSidebarBtn {

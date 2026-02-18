@@ -1257,8 +1257,12 @@ table.field {
 .move-result-group > div,
 .move-result-group {
   position: relative;
-
 }
+
+.logo {
+  width: 5%;
+}
+
 .move-result-group > div:first-child::before {
   /* background-position-x: right; */
   /* transform: scaleX(-1); */

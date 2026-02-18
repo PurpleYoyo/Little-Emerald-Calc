@@ -1271,7 +1271,6 @@ table.field {
   width: 15%;
   height: 120px;
   background-repeat: no-repeat;
-  background-size: cover;
   transform: scaleX(-1);
 }
 
@@ -1285,7 +1284,6 @@ table.field {
   width: 15%;
   height: 120px;
   background-repeat: no-repeat;
-  background-size: cover;
 
 }
 #abilityL1 {

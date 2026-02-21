@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 $(document).keydown(async function (e) {
     if (e.altKey && e.key == 'c') {
-        $("#critR1, #critR2, #crritR3, #critR4").each(function () {
+        $("#critR1, #critR2, #critR3, #critR4").each(function () {
            this.checked = !this.checked; 
         });
     }

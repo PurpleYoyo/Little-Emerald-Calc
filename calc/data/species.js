@@ -6758,7 +6758,7 @@ var SM_PATCH = {
     },
     Minior: {
         types: ['Rock', 'Flying'],
-        bs: { hp: 60, at: 100, df: 60, sa: 100, sd: 60, sp: 120 },
+        bs: { hp: 60, at: 60, df: 100, sa: 60, sd: 100, sp: 60 },
         weightkg: 0.3,
         otherFormes: ['Minior-Meteor'],
         gender: 'N',

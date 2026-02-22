@@ -2112,7 +2112,7 @@ var CUSTOMSETDEX_SM =  {
             },
             "moves":[
                 "Spike Cannon",
-                "Icicle Crash",
+                "Protect",
                 "Spikes",
                 "Aurora Beam"
             ]

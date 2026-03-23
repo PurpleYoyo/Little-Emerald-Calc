@@ -4933,6 +4933,7 @@ var LE_PATCH = {
     'Constrict': { bp: 50 },
     'Egg Bomb': { type: 'Grass' },
     'Strength': { type: 'Rock' },
+    'Slam': { type: 'Steel' },    
     'Twineedle': { bp: 50 },
     'Poison Sting': { bp: 40 },
     'Cut': { type: 'Bug' },

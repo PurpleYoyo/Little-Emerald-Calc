@@ -10069,7 +10069,31 @@ var SV_PATCH = {
 };
 
 var LE_PATCH = {
-    Pidgey: { abilities: { 0: 'Big Pecks' } },
+    Pidgey: {
+		abilities: { 0: 'Big Pecks' },
+		bs: { hp: 40, at: 55, df: 40, sa: 45, sd: 35, sp: 66 },
+	},
+    Ralts: {
+		abilities: { 0: 'Pixilate' },
+		bs: { hp: 43, at: 25, df: 35, sa: 80, sd: 60, sp: 40 },
+		otherFormes: ['Ralts-Fighting'],
+	},
+    Munchlax: {
+		abilities: { 0: 'Immunity' },
+		otherFormes: ['Munchlax-Mega'],
+	},
+    Toxel: {
+		abilities: { 0: 'Punk Rock' },
+		otherFormes: ['Toxel-Mega-A', 'Toxel-Mega-L'],
+		bs: { hp: 45, at: 48, df: 40, sa: 64, sd: 40, sp: 45 },
+	},
+    Bergmite: {
+		abilities: { 0: 'Strong Jaw' },
+		otherFormes: ['Bergmite-Rock'],
+	},
+
+    // Ability Changes
+	Rookidee: { abilities: { 0: 'Big Pecks' } },
     Meowth: { abilities: { 0: 'Limber' } },
     'Meowth-Alola': { abilities: { 0: 'Rattled' } },
     'Meowth-Galar': { abilities: { 0: 'Battle Armor' } },
@@ -10081,21 +10105,16 @@ var LE_PATCH = {
     Zigzagoon: { abilities: { 0: 'Normalize' } },
     'Zigzagoon-Galar': { abilities: { 0: 'Defiant' } },
     Wingull: { abilities: { 0: 'Drizzle' } },
-    Ralts: { abilities: { 0: 'Pixilate' } },
     Slakoth: { abilities: { 0: 'Wimp Out' } },
     Numel: { abilities: { 0: 'Magma Armor' } },
     Buneary: { abilities: { 0: 'Cute Charm' } },
-    Munchlax: { abilities: { 0: 'Immunity' } },
     'Basculin-White-Striped': { abilities: { 0: 'Rock Head' } },
     Rufflet: { abilities: { 0: 'Hustle' } },
     Bunnelby: { abilities: { 0: 'Normalize' } },
     Espurr: { abilities: { 0: 'Prankster' } },
     Pumpkaboo: { abilities: { 0: 'Insomnia' } },
-    Bergmite: { abilities: { 0: 'Strong Jaw' } },
     Rockruff: { abilities: { 0: 'Steadfast' } },
-    Rookidee: { abilities: { 0: 'Big Pecks' } },
     Yamper: { abilities: { 0: 'Strong Jaw' } },
-    Toxel: { abilities: { 0: 'Punk Rock' } },
     Lechonk: { abilities: { 0: 'Lingering Aroma' } },
     Pawmi: { abilities: { 0: 'Volt Absorb' } },
     Tandemaus: { abilities: { 0: 'Friend Guard' } },
@@ -10104,6 +10123,7 @@ var LE_PATCH = {
     Greavard: { abilities: { 0: 'Sand Rush' } },
     Girafarig: { abilities: { 0: 'Cud Chew' } },
 
+    // Type Changes
     'Vulpix-Alola': { types: ['Ice', 'Fairy'] },
     'Ponyta-Galar': { types: ['Psychic', 'Fairy'] },
     'Slowpoke-Galar': { types: ['Psychic', 'Poison'] },
@@ -10134,7 +10154,6 @@ var LE_PATCH = {
     Popplio: { types: ['Water', 'Fairy'] },
     Grubbin: { types: ['Bug', 'Electric'] },
     Poipole: { types: ['Poison', 'Dragon'] },
-    Rookidee: { types: ['Flying', 'Steel'] },
     Blipbug: { types: ['Bug', 'Psychic'] },
     Chewtle: { types: ['Water', 'Rock'] },
     Rolycoly: { types: ['Rock', 'Fire'] },
@@ -10146,6 +10165,7 @@ var LE_PATCH = {
     Totodile: { types: ['Water', 'Dragon'] },
     Hattena: { types: ['Psychic', 'Fairy'] },
 
+    // otherFormes changes
     Pichu: { otherFormes: ['Pichu-Mega'] },
     Cleffa: { otherFormes: ['Cleffa-Mega'] },
     Igglybuff: { otherFormes: ['Igglybuff-Mega'] },
@@ -10161,12 +10181,9 @@ var LE_PATCH = {
     Bonsly: { otherFormes: ['Bonsly-Mega'] },
     'Mime Jr.': { otherFormes: ['Mime Jr.-Mega-K', 'Mime Jr.-Mega-G'] },
     Happiny: { otherFormes: ['Happiny-Mega'] },
-    Munchlax: { otherFormes: ['Munchlax-Mega'] },
     Riolu: { otherFormes: ['Riolu-Mega'] },
     Mantyke: { otherFormes: ['Mantyke-Mega'] },
-    Toxel: { otherFormes: ['Toxel-Mega-A', 'Toxel-Mega-L'] },
     Charcadet: { otherFormes: ['Charcadet-Psychic', 'Charcadet-Ghost'] },
-    Ralts: { otherFormes: ['Ralts-Fighting'] },
     Snorunt: { otherFormes: ['Snorunt-Ghost'] },
     Wurmple: { otherFormes: ['Wurmple-Poison'] },
     Nincada: { otherFormes: ['Nincada-Ghost'] },
@@ -10175,7 +10192,6 @@ var LE_PATCH = {
     Petilil: { otherFormes: ['Petilil-Fighting'] },
     Rufflet: { otherFormes: ['Rufflet-Psychic'] },
     Goomy: { otherFormes: ['Goomy-Steel'] },
-    Bergmite: { otherFormes: ['Bergmite-Rock'] },
     Froakie: { otherFormes: ['Froakie-Special'] },
     Rockruff: { otherFormes: ['Rockruff-Special'] },
     Magikarp: { otherFormes: ['Magikarp-Monster'] },
@@ -10202,14 +10218,7 @@ var LE_PATCH = {
     ] },
     Staryu: { otherFormes: ['Staryu-Special'] },
 
-    // 'Staryu-Special': {
-	// 	types: ['Water'],
-	// 	bs: { hp: 30, at: 55, df: 55, sa: 40, sd: 55, sp: 85 },
-	// 	weightkg: 55,
-	// 	abilities: { 0: 'Pure Power' },
-	// 	baseSpecies: 'Staryu',
-	// 	nfe: true
-    // },
+    // New Forms
     'Burmy-Plant': {
         types: ['Bug', 'Grass'],
         bs: { hp: 40, at: 29, df: 45, sa: 29, sd: 45, sp: 36 },
@@ -10699,14 +10708,12 @@ var LE_PATCH = {
         nfe: true,
         abilities: { 0: 'Multiscale' }
     },
+
     'Caterpie': {
 		bs: { hp: 45, at: 30, df: 40, sa: 60, sd: 60, sp: 50 },
 	},
 	'Weedle': {
 		bs: { hp: 40, at: 60, df: 30, sa: 10, sd: 45, sp: 100 },
-	},
-	'Pidgey': {
-		bs: { hp: 40, at: 55, df: 40, sa: 45, sd: 35, sp: 66 },
 	},
 	'Cleffa': {
 		bs: { hp: 50, at: 25, df: 55, sa: 45, sd: 55, sp: 15 },
@@ -10741,9 +10748,6 @@ var LE_PATCH = {
 	'Seedot': {
 		bs: { hp: 40, at: 60, df: 45, sa: 45, sd: 45, sp: 45 },
 	},
-	'Ralts': {
-		bs: { hp: 43, at: 25, df: 35, sa: 80, sd: 60, sp: 40 },
-	},
 	'Nincada': {
 		bs: { hp: 31, at: 60, df: 90, sa: 30, sd: 30, sp: 40 },
 	},
@@ -10767,9 +10771,6 @@ var LE_PATCH = {
 	},
 	'Nickit': {
 		bs: { hp: 55, at: 28, df: 28, sa: 67, sd: 52, sp: 50 },
-	},
-	'Toxel': {
-		bs: { hp: 45, at: 48, df: 40, sa: 64, sd: 40, sp: 45 },
 	},
 	'Snom': {
 		bs: { hp: 35, at: 30, df: 40, sa: 90, sd: 60, sp: 30 },

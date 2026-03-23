@@ -10202,14 +10202,14 @@ var LE_PATCH = {
     ] },
     Staryu: { otherFormes: ['Staryu-Special'] },
 
-    'Staryu-Special': {
-		types: ['Water'],
-		bs: { hp: 30, at: 55, df: 55, sa: 40, sd: 55, sp: 85 },
-		weightkg: 55,
-		abilities: { 0: 'Pure Power' },
-		baseSpecies: 'Staryu',
-		nfe: true
-    },
+    // 'Staryu-Special': {
+	// 	types: ['Water'],
+	// 	bs: { hp: 30, at: 55, df: 55, sa: 40, sd: 55, sp: 85 },
+	// 	weightkg: 55,
+	// 	abilities: { 0: 'Pure Power' },
+	// 	baseSpecies: 'Staryu',
+	// 	nfe: true
+    // },
     'Burmy-Plant': {
         types: ['Bug', 'Grass'],
         bs: { hp: 40, at: 29, df: 45, sa: 29, sd: 45, sp: 36 },

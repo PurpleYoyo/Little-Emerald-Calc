@@ -10216,7 +10216,7 @@ var LE_PATCH = {
         'Eevee-Starter-Ice',
         'Eevee-Starter-Fairy'
     ] },
-    Staryu: { otherFormes: ['Staryu-Special'] },
+    //Staryu: { otherFormes: ['Staryu-Special'] },
 
     // New Forms
     'Burmy-Plant': {

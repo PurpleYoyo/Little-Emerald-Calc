@@ -10162,8 +10162,8 @@ var LE_PATCH = {
     Capsakid: { types: ['Grass', 'Fire'] },
     Doduo: { types: ['Ground', 'Flying'] },
     Charmander: { types: ['Fire', 'Dragon'] },
-    Totodile: { types: ['Water', 'Dragon'] },
-    Hattena: { types: ['Psychic', 'Fairy'] },
+    //Totodile: { types: ['Water', 'Dragon'] },
+    //Hattena: { types: ['Psychic', 'Fairy'] },
 
     // otherFormes changes
     Pichu: { otherFormes: ['Pichu-Mega'] },
@@ -10617,7 +10617,7 @@ var LE_PATCH = {
 		types: ['Bug', 'Ghost'],
 		bs: { hp: 1, at: 60, df: 90, sa: 30, sd: 30, sp: 40 },
 		weightkg: 55,
-		abilities: { 0: 'Compound Eyes' },
+		abilities: { 0: 'Wonder Guard' },
 		baseSpecies: 'Nincada',
 		nfe: true
 	},

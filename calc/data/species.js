@@ -10216,7 +10216,7 @@ var LE_PATCH = {
         'Eevee-Starter-Ice',
         'Eevee-Starter-Fairy'
     ] },
-    //Staryu: { otherFormes: ['Staryu-Special'] },
+    Staryu: { otherFormes: ['Staryu-Special'] },
 
     // New Forms
     'Burmy-Plant': {
@@ -10617,7 +10617,7 @@ var LE_PATCH = {
 		types: ['Bug', 'Ghost'],
 		bs: { hp: 1, at: 60, df: 90, sa: 30, sd: 30, sp: 40 },
 		weightkg: 55,
-		abilities: { 0: 'Wonder Guard' },
+		abilities: { 0: 'Compound Eyes' },
 		baseSpecies: 'Nincada',
 		nfe: true
 	},

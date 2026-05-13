@@ -7576,7 +7576,7 @@ var USS_PATCH = {
     },
     Tropius: {
         bs: { hp: 89, at: 58, df: 73, sa: 62, sd: 77, sp: 41 },
-    },
+    }
 };
 var USS = (0, util_1.extend)(true, {}, SM, USS_PATCH);
 

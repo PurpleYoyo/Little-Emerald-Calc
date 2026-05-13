@@ -7520,6 +7520,15 @@ delete SM['Pikachu-Belle'];
 delete SM['Pikachu-PhD'];
 delete SM['Pikachu-Pop-Star'];
 delete SM['Pikachu-Libre'];
+
+var USS_PATCH = {
+    Gyarados: { abilities: { 0: 'Swift Swim' } },
+    'Wishiwashi-School': {
+        bs: { hp: 45, at: 20, df: 20, sa: 25, sd: 25, sp: 40 },
+    },
+};
+var USS = (0, util_1.extend)(true, {}, SM, USS_PATCH);
+
 var SS_PATCH = {
     'Aegislash-Blade': { bs: { at: 140, sa: 140 } },
     'Aegislash-Both': { bs: { at: 140, df: 140, sa: 140, sd: 140 } },
@@ -8772,8 +8781,8 @@ var SS_PATCH = {
         baseSpecies: 'Zigzagoon'
     }
 };
-var SS = (0, util_1.extend)(true, {}, SM, SS_PATCH);
-delete SS['Pikachu-Starter'];
+var SS = (0, util_1.extend)(true, {}, SM, USS_PATCH);
+//delete SS['Pikachu-Starter'];
 //delete SS['Eevee-Starter'];
 var PLA_PATCH = {
     Arcanine: { otherFormes: ['Arcanine-Hisui'] },

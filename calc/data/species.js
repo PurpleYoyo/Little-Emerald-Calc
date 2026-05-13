@@ -8832,7 +8832,7 @@ var SS_PATCH = {
         baseSpecies: 'Zigzagoon'
     }
 };
-var SS = (0, util_1.extend)(true, {}, SM, USS_PATCH);
+var SS = (0, util_1.extend)(true, {}, SM, SS_PATCH);
 //delete SS['Pikachu-Starter'];
 //delete SS['Eevee-Starter'];
 var PLA_PATCH = {

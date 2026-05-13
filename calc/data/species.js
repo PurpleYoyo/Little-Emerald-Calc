@@ -7526,6 +7526,57 @@ var USS_PATCH = {
     'Wishiwashi-School': {
         bs: { hp: 45, at: 20, df: 20, sa: 25, sd: 25, sp: 40 },
     },
+    Comfey: {
+        bs: { hp: 36, at: 37, df: 75, sa: 67, sd: 95, sp: 85 },
+    },
+    Mimikyu: {
+        bs: { hp: 40, at: 75, df: 65, sa: 35, sd: 90, sp: 81 },
+    },
+    'Mimikyu-Busted': {
+        bs: { hp: 40, at: 75, df: 65, sa: 35, sd: 90, sp: 81 },
+    },
+    Oricorio: {
+        bs: { hp: 65, at: 60, df: 60, sa: 88, sd: 60, sp: 73 },
+    },
+    'Oricorio-Pa\'u': {
+        bs: { hp: 65, at: 60, df: 60, sa: 88, sd: 60, sp: 73 },
+    },
+    'Oricorio-Pom-Pom': {
+        bs: { hp: 65, at: 60, df: 60, sa: 88, sd: 60, sp: 73 },
+    },
+    'Oricorio-Sensu': {
+        bs: { hp: 65, at: 60, df: 60, sa: 88, sd: 60, sp: 73 },
+    },
+    Zygarde: {
+        bs: { hp: 44, at: 90, df: 61, sa: 51, sd: 75, sp: 105 },
+    },
+    'Zygarde-10%': {
+        bs: { hp: 44, at: 90, df: 61, sa: 51, sd: 75, sp: 105 },
+    },
+    'Zygarde-Complete': {
+        bs: { hp: 44, at: 90, df: 61, sa: 51, sd: 75, sp: 105 },
+    },
+    Furfrou: {
+        bs: { hp: 65, at: 70, df: 50, sa: 55, sd: 80, sp: 92 },
+    },
+    Alomomola: {
+        bs: { hp: 155, at: 65, df: 70, sa: 30, sd: 35, sp: 55 },
+    },
+    Komala: {
+        bs: { hp: 55, at: 105, df: 55, sa: 65, sd: 85, sp: 55 },
+    },
+    Bruxish: {
+        bs: { hp: 58, at: 95, df: 60, sa: 60, sd: 60, sp: 82 },
+    },
+    Basculin: {
+        bs: { hp: 60, at: 82, df: 55, sa: 70, sd: 45, sp: 88 },
+    },
+    'Basculin-Blue-Striped': {
+        bs: { hp: 60, at: 82, df: 55, sa: 70, sd: 45, sp: 88 },
+    },
+    Tropius: {
+        bs: { hp: 89, at: 58, df: 73, sa: 62, sd: 77, sp: 41 },
+    },
 };
 var USS = (0, util_1.extend)(true, {}, SM, USS_PATCH);
 

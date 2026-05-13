@@ -10847,7 +10847,7 @@ var LE_PATCH = {
 };
 
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH, LE_PATCH);
-var SS = SV;
+//var SS = SV;
 
 //Object.keys(SV).forEach(key => {
 //    if (!SV[key].nfe) {
@@ -10856,7 +10856,7 @@ var SS = SV;
 //    }
 //});
 
-exports.SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
+exports.SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, USS, SV];
 var Species = (function () {
     function Species(gen) {
         this.gen = gen;

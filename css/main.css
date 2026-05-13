@@ -674,6 +674,7 @@ th {
 .btn {
   align-items: center;
   appearance: none;
+  font-weight: bold;
   background-color: #fff;
   border: 1px solid #dbdbdb;
   border-radius: 0.375em;
@@ -796,18 +797,20 @@ th {
 }
 .visually-hidden:focus + .btn, /* Add visual indication when focusing on visually hidden elements */
 .btn:hover {
-  border-color: #b5b5b5;
+  border-color: black;
+  background-color: black;
+  color: white;
 }
 
 .visually-hidden:checked + .btn {
-  border-color: #4a4a4a;
-  outline: 0;
-  background-color: #e4e4e4;
+  border-color: black;
+  background-color: black;
+  color: white;
 }
 .visually-hidden[type="radio"]:checked + .btn {
-  border-color: #4a4a4a;
-  outline: 0;
-  background-color: #f1f1f1;
+  border-color: black;
+  background-color: black;
+  color: white;
 }
 
 /* Hide element visually, but not from screen readers. See http://adrianroselli.com/2017/05/under-engineered-custom-radio-buttons-and-checkboxen.html */
